@@ -1,4 +1,4 @@
-; Snake Game - Flicker Fix & Full Block/Directional/Heart
+; Snake Game
 name "snake"
 org 100h
 
