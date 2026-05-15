@@ -238,7 +238,7 @@ no_key:
     int 1ah
     cmp dx, wait_time
     jb no_key
-    add dx, 2
+    add dx, 1
     mov wait_time, dx
     jmp game_loop
 
