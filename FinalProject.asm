@@ -34,7 +34,7 @@ msg         db "==== SNAKE GAME ====", 0dh,0ah
             db "Press any key to start!$"
 sc_msg      db "Score:$"
 over_msg    db 0dh, 0ah, "GAME OVER! Final Score: $"
-replay_msg  db 0dh, 0ah, "Play again? (Y/N) or Esc: $"
+replay_msg  db 0dh, 0ah, "Play again? (Y/N): $"
 
 ; ------ code section ------
 start:
